@@ -1,0 +1,52 @@
+.competences {
+    height: 100vh;
+    background-image: url('picture/backgroud_about.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    margin-top: 0;
+    margin-left: 1rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #EDEFEE;
+    border-radius: 30px;
+    max-width: 50%;
+}
+.competencesCards {
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    max-width: 50%;
+    margin: 2rem;
+}
+.competencesImg{
+    width: 8rem;
+    height: 7rem;
+}
+h3 {
+    margin-left: 1rem;
+    margin-right: 5rem;
+    width: 10%;
+    border: solid red;
+    justify-content: center;
+}
+.competencesImg2 {
+    height: 7rem;
+    width: 40%;
+    margin-left: 3rem;
+}
+p {
+    width: 6.4rem;
+    height: 6rem;
+    font-size: large;
+    font-size: 2rem;
+    margin: 1rem 3rem 0 3rem;
+}
+.grey {
+    background-color: #EDEFEE;
+}
