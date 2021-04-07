@@ -1,28 +1,33 @@
-.competences {
+.competencesPage {
     height: 100vh;
     background-image: url('picture/backgroud_about.png');
     background-size: cover;
     background-position: center;
     display: flex;
+}
+.competences {
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    border: solid blue;
+    margin-left: 2rem;
 }
 h1 {
-    margin-top: 0;
+    margin-top: 2;
     margin-left: 2rem;
+    margin-right: 2rem;
     font-size: 2rem;
     display: flex;
     justify-content: center;
     background-color: #EDEFEE;
     border-radius: 30px;
-    max-width: 50%;
 }
 .competencesCards {
     background-color: white;
     display: flex;
     align-items: flex-start;
-    max-width: 50%;
     margin: 2rem;
+    border: solid purple;
 }
 .competencesImg{
     width: 8rem;
@@ -48,4 +53,40 @@ p {
 }
 .grey {
     background-color: #EDEFEE;
+}
+
+.parcours {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 40%;
+    margin: 3rem;
+    border: solid purple;
+}
+.parcoursCards {
+    display: flex;
+    border: solid blue;
+    margin-top: 5rem;
+    width: 100%;
+
+}
+.losange {
+    width: 4rem;
+    border: solid green;
+    justify-content: center;
+}
+.parcoursText p {
+    border: solid red;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    height: 20%;
+    margin: 0;
+}
+#pText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid orange;
 }

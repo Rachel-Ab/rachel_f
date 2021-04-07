@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import CardsCompetences from './CardsCompetences'
+import Parcours from './Parcours'
 import './Competences.css'
 
 class Competences extends Component {
@@ -17,11 +18,14 @@ class Competences extends Component {
   }
   render() {
     return (
-      <div className='competences'>
-        <h1>Compétences</h1>
-        {this.state.competences.map(id => (
-          <CardsCompetences {...id} key={id} />
-        ))}
+      <div className='competencesPage'>
+        <div className='competences'>
+          <h1>Compétences</h1>
+          {this.state.competences.map(id => (
+            <CardsCompetences {...id} key={id} />
+          ))}
+        </div>
+        <Parcours />
       </div>
     )
   }
