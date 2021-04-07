@@ -26,7 +26,6 @@ h1 {
     display: flex;
     align-items: flex-start;
     margin: 2rem;
-    border: solid purple;
 }
 .competencesImg{
     width: 8rem;
@@ -61,22 +60,18 @@ p {
     align-items: flex-end;
     max-width: 40%;
     margin: 3rem;
-    border: solid purple;
 }
 .parcoursCards {
     display: flex;
-    border: solid blue;
     margin-top: 5rem;
     width: 80%;
 
 }
 .losange {
     width: 4rem;
-    border: solid green;
     justify-content: center;
 }
 .parcoursText p {
-    border: solid red;
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -87,5 +82,4 @@ p {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: solid orange;
 }
