@@ -60,12 +60,12 @@ p {
     align-items: flex-end;
     max-width: 40%;
     margin: 3rem;
+    margin-top: 11rem;
 }
 .parcoursCards {
     display: flex;
     margin-top: 5rem;
     width: 80%;
-
 }
 .losange {
     width: 4rem;
@@ -76,7 +76,6 @@ p {
     display: flex;
     align-items: flex-start;
     height: 20%;
-    margin: 0;
 }
 #pText {
     width: 100%;
