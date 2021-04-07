@@ -1,0 +1,25 @@
+.projetPage {
+    height: 100vh;
+    background-image: url('picture/background_projet.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid blue;
+    justify-content: space-around;
+}
+.projetPage h1 {
+    font-size: 5rem;
+    color: white;
+}
+.projet {
+    display: flex;
+    border: solid red;
+}
+.status {
+    width: 10rem;
+}
+.projetLogo {
+    max-width: 100%;
+    height: 7rem;
+}
