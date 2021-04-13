@@ -19,9 +19,11 @@ class Projet extends Component {
     return (
       <div className='projetPage'>
         <h1>Projet</h1>
-        {this.state.projet.map(id => (
-          <CardsProjet {...id} key={id} />
-        ))}
+        <div className='CardsProjet'>
+          {this.state.projet.map(id => (
+            <CardsProjet {...id} key={id} />
+          ))}
+        </div>
       </div>
     )
   }

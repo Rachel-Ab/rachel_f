@@ -9,14 +9,11 @@ class CardsProjet extends React.Component {
   render() {
     return (
       <Router>
-        <div className='projetCards'>
-          <div className='projet'>
-            <img className='status' src={this.props.status} />
-            <a href={this.props.link}>
-              <img className='projetLogo' src={this.props.logo} />
-            </a>
-            <p className='projetText'>{this.props.text}</p>
-          </div>
+        <div className='projet'>
+          <img className='status' src={this.props.status} />
+          <a href={this.props.link}>
+            <img className='projetLogo' src={this.props.logo} />
+          </a>
         </div>
       </Router>
     )
