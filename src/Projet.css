@@ -4,13 +4,16 @@
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     border: solid blue;
     justify-content: space-around;
+    padding: 2rem;
 }
 .projetPage h1 {
     font-size: 5rem;
     color: white;
+    background-color: none;
+    padding: none;
 }
 .projet {
     display: flex;
