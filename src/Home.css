@@ -1,0 +1,21 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1E475F;
+}
+.homeStatus {
+    display: flex;
+}
+.avatar {
+    width: 15%;
+    height:fit-content;
+    border-radius: 50%;
+    background-color: #210080;
+}
+.infos {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0;
+    height: 1rem;
+}
