@@ -13,7 +13,10 @@ class HomeStatus extends React.Component {
           <img className='avatar' src={this.props.avatar} />
           <div className='infos'>
             <p>{this.props.pseudo}</p>
-            <p>{this.props.points}</p>
+            <div className='points'>
+              <p id='sigle'>G</p>
+              <p id='num'>{this.props.points}</p>
+            </div>
           </div>
         </div>
       </Router>

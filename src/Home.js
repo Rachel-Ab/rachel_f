@@ -3,7 +3,7 @@ import axios from 'axios'
 import './Home.css'
 import HomeStatus from './HomeStatus'
 
-class Competences extends Component {
+class Home extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -18,12 +18,18 @@ class Competences extends Component {
   render() {
     return (
       <div className='home'>
-        <h1>Homepage</h1>
         {this.state.homepage.map(id => (
           <HomeStatus {...id} key={id} />
         ))}
+        <div className='homeHeader'>
+          <p id='hours'>14:22</p>
+          <img className='batterie' src='img/batterie.png' />
+          <a className='credits' href=''>
+            ?
+          </a>
+        </div>
       </div>
     )
   }
 }
-export default Competences
+export default Home
